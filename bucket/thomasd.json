@@ -1,0 +1,25 @@
+﻿{
+  "version": "v0.1.17",
+  "description": "Thomas Chain daemon",
+  "homepage": "https://github.com/dopalos/thomasd",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/dopalos/thomasd/releases/download/v0.1.17/thomasd_v0.1.17_windows_amd64.zip",
+      "hash": "d6ff11a3058d4089312188b2750f4075bdba620d01face21c36414eceadbeb8f",
+      "bin": "thomasd.exe"
+    },
+    "arm64": {
+      "url": "https://github.com/dopalos/thomasd/releases/download/v0.1.17/thomasd_v0.1.17_windows_arm64.zip",
+      "hash": "e5887e60d37218c8e9485058cd2040d75ed771cc319958f63d5339f8454d747a",
+      "bin": "thomasd.exe"
+    }
+  },
+  "checkver": { "github": "https://github.com/dopalos/thomasd" },
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/dopalos/thomasd/releases/download//thomasd_.zip" },
+      "arm64": { "url": "https://github.com/dopalos/thomasd/releases/download//thomasd_.zip" }
+    }
+  }
+}
